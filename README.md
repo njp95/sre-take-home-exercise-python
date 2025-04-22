@@ -8,7 +8,7 @@
 
 `pip3 install -r requirements.txt` 
 
-3. Run the program from the command line with the provided sample yaml file
+2. Run the program from the command line with the provided sample yaml file
 `python3 main.py sample.yml`
 
 ## Issues identified and changes made
