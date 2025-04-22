@@ -1,14 +1,16 @@
-## Nick Polsin's submission for the Fetch SRE take home exercise
-# Installing and running
+# Nick Polsin's submission for the Fetch SRE take home exercise
+## Installing and running
 1. From the project home directory, start the python venv, and install requirements
 `python3 -m venv fetch`
+
 `source fetch/bin/activate`
+
 `pip3 install -r requirements.txt` 
 
-2. Run the program from the command line with the provided sample yaml file
+3. Run the program from the command line with the provided sample yaml file
 `python3 main.py sample.yml`
 
-# Issues identified and changes made
+## Issues identified and changes made
 The initial code provided did not account for the 500ms response time, and only output the cumulative availability, rather than availability by domain.
 1. The inclusion of `timeout=.5` on line 23 accounts for the timeout condition
 2. Lines 25, 28, and 31 are print statements to output the availability including reason for unavailability. This is to address `Must return availability by domain` in the project requirements.
