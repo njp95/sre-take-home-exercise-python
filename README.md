@@ -1,7 +1,7 @@
 # Nick Polsin's submission for the Fetch SRE take home exercise
 ## Installing and running
 1. From the project home directory, start the python venv, and install requirements
-2. 
+   
 `python3 -m venv fetch`
 
 `source fetch/bin/activate`
